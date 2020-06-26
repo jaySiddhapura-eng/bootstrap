@@ -469,13 +469,5 @@ Bootstrap Grid System
 
 7. https://www.w3schools.com/bootstrap4/bootstrap_navbar.asphttps://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
 
-8. 
-
-9. s
-
-10. s
-
-11. s
-
-12. s
+   
 
