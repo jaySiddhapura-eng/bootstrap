@@ -1,0 +1,25 @@
+ .containerClass{
+     border: steelblue 5px solid;
+     padding: 20px;
+     margin-bottom: 20px;
+ }   
+
+ .rowClass{
+     border: rgb(235, 115, 17) 5px solid;
+     padding: 5px;
+     margin: 3px;
+ }
+
+ .columnClass{
+    border: rgb(45, 179, 105) 2px solid;
+    background-color: yellowgreen;
+    padding: 5px;
+    padding-bottom: 7px;
+ }
+
+ hr{
+     height: 2px;
+     color: rgb(0, 0, 0);
+ }
+
+ 

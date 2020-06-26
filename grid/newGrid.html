@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Detailed Grid</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="newGrid.css">
+    </head>
+
+    <body>
+        <h4 align = "center">Grid</h4>
+
+        <hr>
+
+        <hr>
+
+        <h3 align="center">without container</h3>
+
+        <div class="row rowClass">
+            <div class="col-md-4 columnClass">col-md-4</div>
+            <div class="col-md-4 columnClass">col-md-4</div>
+            <div class="col-md-4 columnClass">col-md-4</div>
+        </div>
+
+        <div class="row rowClass">
+            <div class="col-md-1 columnClass">span 1</div>
+            <div class="col-md-1 columnClass">span 2</div>
+            <div class="col-md-1 columnClass">span 3</div>
+            <div class="col-md-1 columnClass">span 4</div>
+            <div class="col-md-1 columnClass">span 5</div>
+            <div class="col-md-1 columnClass">span 6</div>
+            <div class="col-md-1 columnClass">span 7</div>
+            <div class="col-md-1 columnClass">span 8</div>
+            <div class="col-md-1 columnClass">span 9</div>
+            <div class="col-md-1 columnClass">span 10</div>
+            <div class="col-md-1 columnClass">span 11</div>
+            <div class="col-md-1 columnClass">span 12</div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h3 align="center">with container</h3>
+        <div class="container containerClass">
+
+            <div class="row rowClass">
+                <div class="col-md-2 columnClass">span 1+2</div>
+                <div class="col-md-2 columnClass">span 3+4</div>
+                <div class="col-md-2 columnClass">span 5+6</div>
+                <div class="col-md-2 columnClass">span 7+8</div>
+                <div class="col-md-2 columnClass">span 9+10</div>
+                <div class="col-md-2 columnClass">span 11+12</div>
+            </div>
+
+            <div class="row rowClass">
+                <div class ="col-md-3 columnClass">3 spans</div>
+                <div class ="col-md-6 columnClass">6 spans</div>
+                <div class = "col-md-3 columnClass">3 spans</div>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h3 align="center">Nested rows and columns</h3>
+
+
+        <div class="container containerClass">
+            <div class="row rowClass">
+
+                <div class="col-md columnClass">
+                    <div class="row rowClass">
+                        <div class="col-md columnClass" align="center">baby column1</div>
+                        <div class="col-md columnClass" align="center">baby column2</div>
+                        <div class="col-md columnClass" align="center">baby column3</div>
+                    </div>
+                    <div class="row rowClass">
+                        <div class="col-md columnClass" align="center">baby column4</div>
+                        <div class="col-md columnClass" align="center">baby column5</div>
+                        <div class="col-md columnClass" align="center">baby column6</div>
+                        <div class="col-md columnClass" align="center">baby column7</div>
+                    </div>
+                </div>
+
+
+                <div class="col-md columnClass">
+                    <div class="row rowClass">
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                    </div>
+                    <div class="row rowClass">
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                    </div>
+                    <div class="row rowClass">
+                        <div class="col-md columnClass" align="center">baby column</div>
+                        <div class="col-md columnClass" align="center">baby column</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h3 align="center">different size of columns in one row</h3>
+
+        <div class="container containerClass">
+            <div class="row rowClass">
+                <div class="col-md-3 columnClass">3spans</div>
+                <div class="col-md-9 columnClass">9spans</div>
+            </div>
+            <div class="row rowClass">
+                <div class="col-md-4 columnClass">4span</div>
+                <div class="col-md-4 columnClass">4span</div>
+                <div class="col-md-4 columnClass">4span</div>
+            </div>
+            <div class="row rowClass">
+                <div class="col-md-4 columnClass">4span</div>
+                <div class="col-md-2 columnClass">2span</div>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h3 align="center">Offsets</h3>
+
+        <div class="container containerClass">
+            <div class="row rowClass" >
+                <div class="col-md-4 offset-md-0 columnClass">column with 0 offset</div>
+            </div>
+            <div class="row rowClass" >
+                <div class="col-md-4 offset-md-2 columnClass">column with 2 offset</div>
+            </div>
+            <div class="row rowClass" >
+                <div class="col-md-4 offset-md-5 columnClass">column with 5 offset</div>
+            </div>
+            <div class="row rowClass" >
+                <div class="col-md-2 offset-md-0 columnClass">column with 0 offset</div>
+                <div class="col-md-2 offset-md-8 columnClass">column with 8 offset</div>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+        <h3 align="center">xs vs. sm vs. md vs. lg</h3>
+        <div class="container containerClass">
+            <div class="row rowClass">
+                <div class="col-xs-2 columnClass">col-xs-2</div>
+                <div class="col-sm-2 columnClass">col-sm-2</div>
+                <div class="col-md-2 columnClass">col-md-2</div>
+                <div class="col-lg-2 columnClass">col-lg-2</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+</html>
