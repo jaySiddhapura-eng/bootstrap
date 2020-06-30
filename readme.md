@@ -698,15 +698,6 @@ Bootstrap Grid System
 
    ![card sample](assets/card.PNG)
 
-4. q
-
-5. q
-
-6. q
-
-7. qq
-
-8. q
 
 ## Buttons
 
